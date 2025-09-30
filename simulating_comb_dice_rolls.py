@@ -1,5 +1,4 @@
 import numpy as np
-import math
 
 def rolls_until_all_sums_rng(rng):
     seen = 0  # bitmask for sums 2..12 (11 sums) -> use bits 0..10
