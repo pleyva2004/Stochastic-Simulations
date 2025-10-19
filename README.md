@@ -4,6 +4,10 @@ A collection of C++ implementations for stochastic simulation algorithms and pro
 
 ## C++ Implementation
 
+**Goal**: Expand C++ programming skills while learning stochastic variable and event simulation techniques, with emphasis on code readability, computational efficiency, and numerical accuracy.
+
+**Development Process**: All code is hand-written from scratch using VIM - no AI-generated code or automated assistance used in the implementation.
+
 ### Core Components
 
 - **`distributions.h/cpp`** - Custom random number generator and probability distribution implementations
@@ -23,10 +27,14 @@ A collection of C++ implementations for stochastic simulation algorithms and pro
 
 ### Key Features
 
-- **Custom PRNG**: Implements multiplicative congruential method with configurable parameters
-- **Distribution Generation**: Uniform and normal distributions with proper scaling
-- **Monte Carlo Methods**: Integration techniques using importance sampling
-- **Numerical Precision**: Careful handling of floating-point arithmetic to avoid precision loss
+- **Readable Code Design**: Clean class structure with well-documented methods and clear variable naming
+- **Efficient Algorithms**: Optimized multiplicative congruential method with minimal computational overhead
+- **Accurate Numerical Methods**: 
+  - Explicit type casting to prevent silent conversions
+  - Guard conditions against edge cases (e.g., zero values in log operations)
+  - High-precision floating-point operations for numerical stability
+- **Modular Architecture**: Separated concerns between random number generation and distribution sampling
+- **Robust Implementation**: Error-resistant design with proper bounds checking and overflow prevention
 
 ### Build Instructions
 
